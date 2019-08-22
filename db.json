@@ -1,0 +1,202 @@
+{
+  
+    "rentals":[{
+      "id": "0",
+      "title": "Monopoly",
+      "pricePerDay": 6.0,
+      "pricePerWeekend": 11.0,
+      "availability": "Kaikki viikonloput",
+      "imageLink": "https://target.scene7.com/is/image/Target/GUEST_6e63ca54-f938-4243-b2de-0523a05fe70a?wid=488&hei=488&fmt=pjpeg",
+      "user": 0,
+      "status": "Vapaa",
+      "ratings": 3.5,
+      "condition": "Hyvä",
+      "description": "Kiva seurapeli",
+      "manualLink": "https://www.hasbro.com/common/instruct/00009.pdf",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "categories": ["seurapeli"],
+      "location": "Helsinki, Mannerheimintie",
+      "lat":"60.1870317",
+      "long":"24.919727599999987",
+      "bookings": [{
+        "id": 1,
+        "startAt": "2019-06-15",
+        "endAt": "2019-06-18",
+        "totalPrice": "",
+        "days": "",
+        "createdAt":"",
+        "user":"",
+        "game":""
+      },
+      {
+        "id": 3,
+        "startAt": "2019-07-12",
+        "endAt": "2019-07-14",
+        "totalPrice": "",
+        "days": "",
+        "createdAt":"",
+        "user":"",
+        "game":""
+      }]
+  
+    },
+    {
+      "id": "1",
+      "title": "Trivial Pursuit",
+      "pricePerDay": 5.0,
+      "pricePerWeekend": 8.0,
+      "availability": "Kaikki viikonloput",
+      "imageLink": "https://images-na.ssl-images-amazon.com/images/I/81iYPliZibL._SL1500_.jpg",
+      "user": 1,
+      "status": "Vapaa",
+      "ratings": 3.5,
+      "condition": "Hyvä",
+      "description": "OK seurapeli",
+      "manualLink": "https://www.hasbro.com/common/instruct/00009.pdf",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "categories": ["seurapeli", "leikkimielinen"],
+      "location": "Ilmalantori, Helsinki",
+      "lat":"60.20600839999999",
+      "long":"24.918483400000014",
+      "bookings": [{
+        "id": 2,
+        "startAt": "2019-06-13",
+        "endAt": "2019-06-16",
+        "totalPrice": "",
+        "days": "",
+        "createdAt":"",
+        "user":"",
+        "game":""
+      }]
+    },
+    {
+      "id": "2",
+      "title": "Peli 3",
+      "pricePerDay": 7.0,
+      "pricePerWeekend": 10.0,
+      "availability": "Kaikki viikonloput",
+      "imageLink": "https://target.scene7.com/is/image/Target/GUEST_6e63ca54-f938-4243-b2de-0523a05fe70a?wid=488&hei=488&fmt=pjpeg",
+      "user": 2,
+      "status": "Vapaa",
+      "ratings": 3.5,
+      "condition": "Hyvä",
+      "description": "Upea seurapeli",
+      "manualLink": "https://www.hasbro.com/common/instruct/00009.pdf",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "categories": ["seurapeli"],
+      "location": "Lauttasaarentie, Helsinki",
+      "lat":"60.1870317",
+      "long":"24.919727599999987",
+      "bookings": [{
+        "id": 0,
+        "startAt": "2019-06-12",
+        "endAt": "2019-06-15",
+        "totalPrice": "",
+        "days": "",
+        "createdAt":"",
+        "user":"",
+        "game":""
+      }]
+  
+    }],
+      "users":[
+        {
+            "id": "0",
+            "name" : "",
+            "email" : "",
+            "creditCard" : "",
+            "imageLink" : "",
+            "games" : ["0","1"],
+            "ratings": ["0"],
+            "description" : "",
+            "bookings": []
+        },
+        {
+            "id": "1",
+            "name" : "",
+            "email" : "",
+            "creditCard" : "",
+            "imageLink" : "",
+            "games" : ["2"],
+            "ratings": ["1","2"],
+            "description" : "",
+            "bookings": []
+        },
+        {
+            "id": "2",
+            "name" : "",
+            "email" : "",
+            "creditCard" : "",
+            "imageLink" : "",
+            "games" : [],
+            "ratings": [],
+            "description" : "",
+            "bookings": []
+        }
+      ],
+      "ratings":[
+        {
+            "id":"0",
+            "stars": 3.5,
+            "comment": "",
+            "giver": "",
+            "receiverUserId": "0",
+            "receiverGameId": "",
+            "type": ""
+        },
+        {
+            "id":"1",
+            "stars": 3.5,
+            "comment": "",
+            "giver": "",
+            "receiverUserId": "1",
+            "receiverGameId": "",
+            "type": ""
+        },
+        {
+            "id":"2",
+            "stars": 3.5,
+            "comment": "",
+            "giver": "",
+            "receiverUserId": "",
+            "receiverGameId": "1",
+            "type": ""
+        }
+      ],
+      "bookings": [{
+        "id": 0,
+        "startAt": "2019-06-12",
+        "endAt": "2019-06-15",
+        "totalPrice": "",
+        "days": "",
+        "createdAt":"",
+        "user":"",
+        "game":""
+      },
+      {
+        "id": 1,
+        "startAt": "2019-06-15",
+        "endAt": "2019-06-18",
+        "totalPrice": "",
+        "days": "",
+        "createdAt":"",
+        "user":"",
+        "game":""
+      },
+      {
+        "id": 2,
+        "startAt": "2019-06-13",
+        "endAt": "2019-06-16",
+        "totalPrice": "",
+        "days": "",
+        "createdAt":"",
+        "user":"",
+        "game":""
+      }
+      ]
+          
+      
+}
